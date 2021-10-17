@@ -1,0 +1,198 @@
+﻿body {
+background-image: 
+				url("../images/work.jpg"),
+				linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;/*
+background-size: 400px 400px;*/
+}
+
+#page {
+	background-color: white;
+	width:1000px;
+	border:4px solid #dddddd;
+	margin:30px auto 0 auto;
+	padding:20px;
+	border-radius:10px;
+	position:relative;
+}
+
+#entete {
+	width:100%;
+	text-align:center;
+	height:65px;
+	margin-top:30px auto 0 auto;
+	font-size:32px;
+	background-image: url('logo-iutcv.png');
+	background-size:auto 65px;
+	background-repeat:no-repeat;
+	font-family:"Times New Roman"
+}
+
+#biographie {
+	width:100%;
+	height:135px;
+	margin-bottom:30px;
+}
+
+#presentation {
+    font-family:"Maven Pro";
+	padding-bottom:5px;
+	padding-top:10px;
+	font-size:10px;
+}
+
+#nom {
+	font-family:"Maven Pro";
+	font-size:20px;
+	padding-bottom:5px;
+	padding-top:10px;	
+}
+		
+#position {
+	padding-bottom:15px;
+}
+		
+#age {
+			
+}
+		
+#courriel {
+			
+}
+
+#photo {
+	height:120px;
+	width:140px;
+	float:right;		
+}
+	
+#details {
+	width:100%;
+	height:210px;
+	padding-bottom:30px;	
+}
+
+ul {
+	list-style-type:none;
+    margin:0;
+	padding:0;
+	line-height:48px;
+}
+
+/* les liens non visite */
+a:link {
+	color: red;
+	/* enleve le trait en bas du lien */
+	text-decoration: none;
+}
+
+a:visited {
+	color: crimson;
+	/* enleve le trait en bas du lien */
+	text-decoration: none;
+}
+
+/* le moment où on clique*/
+a:active {
+	text-transform: uppercase;
+	text-decoration: line-through;
+}
+
+a:hover {
+	text-decoration: overline;
+	letter-spacing: 3px;
+	color: black;
+	cursor: help;
+}
+
+.boutonmenuprincipal:hover {
+background-color: #ADEAEA;
+}
+.boiteee {
+position: relative;
+display: inline-block;
+}
+.mesMenus {
+display: none;
+background-color: #ADEAEA;
+min-width: 50px;
+font-size: 20px;
+}
+.mesMenus a {
+color: red;
+padding: 2px;
+text-decoration: none;
+display: block;
+}
+.boiteee:hover .mesMenus {
+display: block;
+}
+
+#v8 {
+	position: relative;
+	top: 100px;
+	left: 100px;
+}
+
+#contactez-moi {
+	bottom:20px;
+	position:absolute;
+	color: red;
+}
+
+#items {
+	width:40%;
+	font-size:140%;
+	line-height:48px;
+	float:left;
+}
+
+#cadre {
+	width:57%;
+	height:100%;
+	padding:10px;
+	float:right;
+	border:1px solid gray;
+	border-radius: 0px 0px 10px 0px;
+}
+
+#contact {
+	width:57%;
+	height:100%;
+	padding:20px;
+	top: 150%;
+	right: -250px;
+	border:4px solid red;
+	position: relative;
+	border-radius: 10px 10px 10px 10px;
+	background-color: white;
+}
+
+#merci {
+	width:57%;
+	height: 150px;
+	right: -250px;
+	background-color: white;
+	border:4px solid darkblue;
+	position: relative;
+	border-radius: 10px 10px 10px 10px;
+}
+
+iframe {
+	width:100%;
+	height:100%;
+	border:0;
+}
+
+.colonne1 {
+	vertical-align: top;
+	padding-right: 10px;
+	white-space: nowrap;
+	text-align: right;
+	font-weight: bold;
+	color: #777;
+	width: 0%;
+}
+
